@@ -1,0 +1,129 @@
+@font-face {font-family: 'Helvetica';src: url('../fonts/HelveticaNeue-Light.otf');}
+html, body{height:100%; width:100%; margin:0; padding:0;background: #f3f3f3;font-family: Helvetica;}
+img{max-width:100%; display:block; margin:0; padding:0;}
+section{margin:0 auto; max-width:77.3%; display:block;}
+ul li{list-style-type: none; margin: 0;}
+ul{margin: 0;}
+ul li a{text-decoration: none; color: #000;}
+#clear{clear: both;}
+/*========================================================*\
+						Top navbra		 	
+\*========================================================*/
+header nav ul li{float: left;margin-right: -1vw;width: 16vw;cursor: pointer;text-align: center;line-height: 7vw;}							
+header nav ul li:last-child{margin-right: 0;}
+header nav ul li a img{height: 6.15vw;width: 55%;margin: -9% auto;border-bottom: 0.4vw solid #7000db;padding: 14% 16% 13%;border-radius: 18px;background: #fff;}
+header nav ul{max-width: 77.3%;margin: 0px auto;padding-left: 0;}
+header nav ul li a{color: #474747;font-size: 1.6vw;font-weight: 100;}
+header nav ul li a:hover{color: #7000db;}
+header #bg_nav {transition: 1s;height: 7.3vw;background: #fff; width: 100vw;border-bottom: 0.3vw solid #7000db;position: fixed; z-index: 99;}
+.hide_top_nav{margin-top: -500px;transition: 1s;}
+/*========================================================*\
+						Header images		 	
+\*========================================================*/
+header .bg_img img{position: fixed;}
+header .bg_img img:first-child{margin: 0px auto;width: 100%;height:71.4vw;opacity:.5;position: absolute;box-shadow: 0px 0px 5px #000;}
+header .bg_img img:last-child{width: 28%;margin-top: 23%;position: absolute;margin-left: 35%;border-radius: 50%;background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.1);box-shadow: 0px 0px 5px #000;padding: 1.6%;}
+header .bg_img h1{position: absolute;width: 100%;text-align: center;top: 5vw;color: #fff;font-size: 8vw;font-weight: 400;text-shadow:0px 0px 5px #000;}
+header .bg_img h2{margin: 0;position: absolute;top: 60vw;color: #FFF;font-size: 3vw;font-weight: 100;text-shadow: 0px 0px 5px #000;left: 18vw;width: 20%;border-radius: 8px;border: 1px solid #FFF;cursor: pointer;text-align: center;line-height: 5.5vw;height: 5.5vw;}
+header .bg_img h2:hover{transition:.6s;background: rgba(255, 255, 255, 0.3);}
+header .bg_img h3{margin: 0;position: absolute;top: 60vw;color: #FFF;font-size: 3vw;font-weight: 100;text-shadow: 0px 0px 5px #000;left: 61vw;width: 20%;border-radius: 8px;border: 1px solid #FFF;cursor: pointer;text-align: center;line-height: 5.5vw;height: 5.5vw;background: rgba(255, 255, 255, 0.3);}
+header .bg_img h3:hover{transition:.6s;background: rgba(255, 255, 255, 0);}
+header .bg_img{width: 100%;background: #000;height: 71.4vw;}
+/*========================================================*\
+						Left Navbar		 	
+\*========================================================*/
+.left_nav{margin-left: -500px;transition: 1s;position: fixed;z-index: 999;top: 0;left: 0;background: #fff;height: 100%;border-right: 0.3vw solid #7000db;width: 10vw;}
+.left_nav nav ul li:first-child{padding: 4vh 1.5vw;background: #F0DFFF;height: 9vh;}
+.left_nav nav ul li:first-child a{display: block !important;}
+.left_nav nav ul li:nth-child(2){padding-left: 3.5vw;}
+.left_nav nav ul li{transition:.8s;height: 5.2vh;padding: 7.8vh 3vw;cursor: pointer;box-shadow: 0px 0px 0.6vh #2A2A2A;background: #FFF;}
+.left_nav nav ul{padding-left: 0;}
+.left_nav nav ul li a:last-child{display: none;}
+.left_nav nav ul li:hover{background: #A971EF;transition:.8s;}
+.hover-first{display: none;}
+.hover-last{display: block !important;}
+.show_left_nav{margin-left: 0px;transition: 1s;}
+.bg_li{background: #A971EF !important;}
+/*========================================================*\
+				Section h1 abderrahim nabaoui		 	
+\*========================================================*/
+section h1{text-align: center;font-weight: 400;font-size: 5vw;margin: 4vw auto;padding-bottom: 2vw;color: #7000db;}
+section .cv span{width: 15%;top: 84vw;margin: 0px auto;position: absolute;left: 42vw;border-bottom: 0.4vw solid #7000db;}
+section p{font-weight: 100;text-align: center;font-size: 1.8vw;color: #656565;}
+/*========================================================*\
+							CV	 	
+\*========================================================*/
+section h2.circle_cv{text-align: center;font-size: 4vw;font-weight: 400;background: #7000db;width: 12vw;height: 12vw;line-height: 12vw;border-radius: 50%;margin: 4vw auto 0;color: rgb(255, 255, 255);border: 0.3vw solid rgb(255, 255, 255);box-shadow: 0 0 0.1vw #000;}
+/*==========================================*\
+					CV Left		 	
+\*==========================================*/
+section .cv_left{float: left;padding-right: 2vw;width: 47.4%;border-right: 0.2vw dashed #ADADAD;}
+section .cv_left .formation .circle , section .cv_left .competences .circle , section .cv_left .loisirs .circle{transition:0.6s;float: right;width: 2vw; height: 2vw;border-radius: 50%;border: 0.2vw dashed #ADADAD;position: relative;top: -5.3vw;left: 3.3vw;background:#f3f3f3;}
+section .cv_left .formation h1 , section .cv_left .competences h1 , section .cv_left .loisirs h1{transition:0.6s;font-size: 2vw;text-align: center;background: none repeat scroll 0% 0% #FFF;margin: 2vw 0;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;height: 2.5vw;line-height: 4.5vw;}
+section .cv_left .formation .cv_para , section .cv_left .competences .cv_para{transition:0.6s;padding: 1vw;background: none repeat scroll 0% 0% #FFF;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;}
+section .cv_left .loisirs .cv_para{transition:0.6s;padding: 3vw 1vw 1vw 1vw;background: none repeat scroll 0% 0% #FFF;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;}
+section .cv_left .formation .cv_para h3 , section .cv_left .competences .cv_para h3{font-size: 2vw;font-weight: 400;color: #232323;margin-top: 0.5vw;}
+section .cv_left .formation .cv_para p , section .cv_left .competences .cv_para p , section .cv_left .loisirs .cv_para p{text-align:left;font-size: 1.3vw;margin-top: -1vw;border-left: 0.1vw solid #454545;padding-left: 0.8vw;}
+section .cv_left .formation .cv_para p i{color:#3B3B3B;font-weight:bold;}
+.hover_f{box-shadow: 0px 0px 0.3vw #7000DB !important;transition:0.6s;margin: 2vw -0.4vw 2vw 1vw !important;}
+.hover_circle{border: 0.2vw dashed #7000DB !important;transform: scale(0.8);transition:0.6s;}
+section .cv_left .competences .cv_para .max{background: #CCB7F5; width:18vw;height: 1vw;float: right;margin-top: -2.5vw;border-radius: 1vw;overflow: hidden;}
+section .cv_left .competences .cv_para .max .php{background: #5700AB; width:14vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .mysql{background: #5700AB; width:15vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .wordpress{background: #5700AB; width:13vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .java{background: #5700AB; width:10vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .gap{background: #5700AB; width:11vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .phaser{background: #5700AB; width:9vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .html{background: #5700AB; width:17vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .css{background: #5700AB; width:17vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .bootstrap{background: #5700AB; width:16vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .js{background: #5700AB; width:15vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .ps{background: #5700AB; width:17.5vw;height: 1vw;}
+section .cv_left .competences .cv_para .max .ai{background: #5700AB; width:17.5vw;height: 1vw;}
+/*==========================================*\
+					CV Right		 	
+\*==========================================*/
+section .cv_right{float: right;padding-left: 2vw;width: 47.4%;margin-top: -104vw;}
+section .cv_right .experiences , section .cv_right .objectifs , section .cv_right .langues{margin-bottom: 10vw;}
+section .cv_right .experiences .circle , section .cv_right .objectifs .circle , section .cv_right .langues .circle{transition:0.6s;float: left;width: 2vw; height: 2vw;border-radius: 50%;border: 0.2vw dashed #ADADAD;position: relative;top: 1vw;left: -3vw;background:#f3f3f3;}
+section .cv_right .experiences h1 , section .cv_right .objectifs h1 , section .cv_right .langues h1{transition:0.6s;font-size: 2vw;text-align: center;background: none repeat scroll 0% 0% #FFF;margin: 2vw 0;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;height: 2.5vw;line-height: 4.5vw;}
+section .cv_right .experiences .cv_para{transition:0.6s;padding: 1vw;background: none repeat scroll 0% 0% #FFF;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;}
+section .cv_right .objectifs .cv_para , section .cv_right .langues .cv_para{transition:0.6s;padding: 3vw 1vw 1vw 1vw;background: none repeat scroll 0% 0% #FFF;border-radius: 5px;box-shadow: 0px 0px 0.1vw #9E9E9E;}
+section .cv_right .experiences .cv_para h3{font-size: 2vw;font-weight: 400;color: #232323;margin-top: 0.5vw;}
+section .cv_right .experiences .cv_para p , section .cv_right .objectifs .cv_para p , section .cv_right .langues .cv_para p{text-align:left;font-size: 1.3vw;margin-top: -1vw;border-left: 0.1vw solid #454545;padding-left: 0.8vw;}
+section .cv_right .experiences .cv_para p i{color:#3B3B3B;font-weight:bold;}
+section .cv_right .langues .cv_para .max{background: #CCB7F5; width:18vw;height: 1vw;float: right;margin-top: -2.5vw;border-radius: 1vw;overflow: hidden;}
+section .cv_right .langues .cv_para .max .fr{background: #5700AB; width:11vw;height: 1vw;}
+section .cv_right .langues .cv_para .max .en{background: #5700AB; width:10vw;height: 1vw;}
+section .cv_right .langues .cv_para .max .ar{background: #5700AB; width:18vw;height: 1vw;}
+.hover_e{box-shadow: 0px 0px 0.3vw #7000DB !important;transition:0.6s;margin: 2vw 1vw 2vw -0.4vw !important;}
+/*========================================================*\
+							Back-end	 	
+\*========================================================*/
+section span.underline{margin: -3.3vw auto 5vw;display: block;width: 15vw;background: none repeat scroll 0% 0% rgb(112, 0, 219);height: 0.4vw;}
+/*=================================*\
+	images front-end back-end box	 	
+\*=================================*/
+section .front_back .img_box{overflow: hidden;width: 49%;height:30vw;box-shadow: 0 0 0.2vw;}
+section .front_back .first_box{background: url(../images/ewa.jpg) center no-repeat;background-size: 100%;float: left;margin: 1.5vw 0;}
+section .front_back .second_box{background: url(../images/first_projet.jpg) center no-repeat;background-size: 100%;float: right;margin: 1.5vw 0;}
+section .front_back .thrd_box{background: url(../images/albait.ma.jpg) top center no-repeat;background-size: 100%;float: left;}
+section .front_back .four_box{background: url(../images/ryad.jpg) top center no-repeat;background-size: 100%;float: right;}
+section .front_back .five_box{background: url(../images/portfolio.jpg) top center no-repeat;background-size: 100%;float: left;margin: 1.5vw 0;}
+section .front_back .six_box{background: url(../images/AB_Immo.jpg) center no-repeat;background-size: 100%;float: right;margin: 1.5vw 0;}
+section .front_back .seven_box{background: url(../images/imessouane.jpg) top center no-repeat;background-size: 100%;float: left;}
+section .front_back .eight_box{background: url(../images/projet_simple.jpg) top center no-repeat;background-size: 100%;float: right;}
+section .front_back .img_box .bg_box{transition:0.6s;opacity: 0;background: rgba(0, 0, 0, 0.6);padding: 2vw 4vw;margin-top: -1.6vw;height: 30vw;}
+section .front_back .img_box .bg_box h2{transition:0.4s;margin-top: -20vw;color: #fff;font-size: 2.6vw;}
+section .front_back .img_box .bg_box p{transition:0.6s;width: 28vw;opacity:margin-left: -100vw;height: 15vw;line-height:3vw;color: #fff;font-size: 1.5vw;text-align: left;border-left: 0.2vw solid #fff;padding-left: 1vw;margin-top: 40vw;}
+section .front_back .img_box .bg_box .triangle{transition:1s;width: 24vw;height: 34vw;background: rgba(255, 255, 255, 0.8);-ms-transform: rotate(67deg);-webkit-transform: rotate(67deg);transform: rotate(67deg);margin-left: 14vw;margin-top: -8vw;}
+section .front_back .img_box .bg_box .triangle img{cursor:pointer;width: 3vw;-ms-transform: rotate(-67deg);-webkit-transform: rotate(-67deg);transform: rotate(-67deg);transform: rotate(-67deg);position: absolute;left: 2.5vw;top: 10.5vw;}
+section .front_back .img_box .bg_box .triangle a img{transition:0.6s;opacity: 0;}
+/*=================================*\
+ images front-end back-end hover box	 	
+\*=================================*/
+section .front_back .img_box .bg_box:hover{opacity: 1;transition:0.6s;}
+section .front_back .img_box .bg_box:hover h2{transition:0.4s;margin-top: 2vw;}
+section .front_back .img_box .bg_box:hover p{transition:0.6s;margin-left: 0vw;margin-top: 3vw;}
+section .front_back .img_box .bg_box:hover .triangle{transition:1s;margin-top: -6vw;}
+section .front_back .img_box .bg_box .triangle a img:hover{transition:0.6s;opacity: 1;}
